@@ -1,0 +1,73 @@
+body{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.flex2{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;    
+  margin:100px;
+}
+
+
+
+.room-card {
+  position: relative;
+  height: 800px;
+  box-shadow: #ccc 0px 0px 15px;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  border-radius: 50px;
+      
+  overflow: hidden;
+}
+
+
+  
+  img {
+    height: 480px;
+   width: 480px; 
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .room-card h2 {
+    margin-top: 0;
+  }
+  
+  .service-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .service-list li:before {
+    content: "✓ ";
+  }
+  
+  .book-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: hsla(299, 43%, 51%, 0.3);    color: #5f0606;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
